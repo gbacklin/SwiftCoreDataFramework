@@ -1,0 +1,10 @@
+framework module CoreDataFoundation {
+  umbrella header "CoreDataFoundation.h"
+
+  export *
+  module * { export * }
+}
+
+module CoreDataFoundation.Swift {
+    header "CoreDataFoundation-Swift.h"
+}
